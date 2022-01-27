@@ -58,6 +58,6 @@ void loop() {
     }
   }
   else{
-    beforeStatus = HIGH; 
+    beforeStatus = HIGH; //상태를 1로 저장
   }
 }
