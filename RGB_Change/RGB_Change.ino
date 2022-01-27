@@ -27,8 +27,8 @@ void loop() {
     Serial.println("----------------------------");
     
     digitalWrite(PORT_R, COLOR_R); //3번 포트에 연결된 COLOR_R에 저장된 값을 출력
-    digitalWrite(PORT_G, COLOR_G); //3번 포트에 연결된 COLOR_G에 저장된 값을 출력
-    digitalWrite(PORT_B, COLOR_B); //3번 포트에 연결된 COLOR_B에 저장된 값을 출력
+    digitalWrite(PORT_G, COLOR_G); //4번 포트에 연결된 COLOR_G에 저장된 값을 출력
+    digitalWrite(PORT_B, COLOR_B); //5번 포트에 연결된 COLOR_B에 저장된 값을 출력
     delay(1000); //1초에 지연 시간을 준다.
     COLOR = COLOR >> 1; //for문이 끝나기전에 COLOR의 값을 오른쪽으로 1씩 쉬프트 연산을 하여 COLOR에 저장
   }
